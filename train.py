@@ -27,7 +27,7 @@ parser.add_argument("--hidden_units", help="Enter multiple units seperated with 
 parser.add_argument("--epochs", help="Enter Preferred number of training epochs")
 parser.add_argument("--gpu", help="Will you like to train model on gpu", action="store_true", default=False)
 parser.add_argument("--save_dir", help="Specify the directory where you will like to save the model")
-parser.add_argument("--arch", help="Choose an architecture of choice", choices=["densenet121"])
+parser.add_argument("--arch", help="Choose an architecture of choice", choices=["densenet121", "densenet161"])
 
 
 # Parse all the arguments
